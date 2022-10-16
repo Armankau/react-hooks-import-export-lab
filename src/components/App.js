@@ -1,6 +1,11 @@
 import React from "react";
+import NavBar from "./NavBar"
+import About from "./About"
+import Home from "./Home"
 
-function App() {
+import {username, image, city} from "../data/user"
+
+function App() { 
   return (
     <div>
       <NavBar />
